@@ -25,4 +25,3 @@ public class PersonManager : IApplicantService
         return client.TCKimlikNoDogrulaAsync(person.NationalID,person.FirstName,person.LastName,person.DateOfBirth).Result.Body.TCKimlikNoDogrulaResult;
     }
 }
-
